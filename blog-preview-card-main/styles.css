@@ -1,0 +1,82 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    font-size: 1.6rem;
+    font-family: 'Figtree', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 300px;
+    padding: 1.5rem;
+    box-shadow: 5px 5px;
+}
+
+article div:first-child img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+div + span {
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-weight: 800;
+    display: inline-block;
+    margin: 1rem 0;
+}
+
+span + p {
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+h1:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.paragraph {
+    color: hsl(0, 0%, 50%);
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.avatar {
+    width: 22px;
+    height: 22px;
+}
+
+.name {
+    font-weight: 800;
+    font-size: 1.2rem;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
